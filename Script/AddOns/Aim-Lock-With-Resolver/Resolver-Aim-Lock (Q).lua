@@ -54,12 +54,12 @@ getgenv().Settings = {
     Resolver = {
         UnderGround = false,
         UseUnderGroundKeybind = true,
-        UnderGroundKey = Enum.KeyCode.V,
+        UnderGroundKey = Enum.KeyCode.RightControl,
         DetectDesync = false,
         Detection = 75,
  
         UseDetectDesyncKeybind = true,
-        DetectDesyncKey = Enum.KeyCode.B,
+        DetectDesyncKey = Enum.KeyCode.LeftAlt,
         SendNotification = true
     },
     Visual = {
