@@ -7,7 +7,7 @@ game.StarterGui:SetCore("SendNotification",  {
  Callback = NotificationBindable;
 }
 )
-local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/F4ir/UI-Librarys/main/UI-Premium.lua"))()
+local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/UI-Premium.lua"))()
 
 local MainUI = UILibrary.Load("D3V1LS Premium")
 local AimingPage = MainUI.AddPage("Aiming")
