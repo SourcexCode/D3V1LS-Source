@@ -5,7 +5,7 @@ local scriptBlacklist = {
 }
 
 local function executeScript()
-    local scriptUrl = "https://raw.githubusercontent.com/F4ir/UI-Librarys/main/Main/Redirect/Redirect-Main.lua"
+    local scriptUrl = "https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Main/Redirect/Redirect-Main.lua"
     local success, errorMsg = pcall(function()
         loadstring(game:HttpGet(scriptUrl))()
     end)
