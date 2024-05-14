@@ -168,7 +168,7 @@ local Tab6 = Window:Tab("Premium",false)
 Tab6:Label("Discord In Credits")
 
 Tab6:Button("Premium GUI", function(bool)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Script/AddOns/Premium/Whitelist.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Script/Premium/Whitelist.lua"))()
 end)
 
 
