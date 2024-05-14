@@ -8,7 +8,7 @@ game.StarterGui:SetCore(
 	Text = "Made by F4ir",
 }
 )
-local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/F4ir/UI-Librarys/main/Free-Lock-UI.lua"))()
+local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Free-Lock-UI.lua"))()
 local L_4_ = L_3_.CreateLib("D3V1LS")
 local L_5_ = L_4_:NewTab("Aimlock")
 local L_6_ = L_5_:NewSection("F4ir's Aim-Lock")
