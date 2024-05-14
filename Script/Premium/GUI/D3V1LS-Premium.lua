@@ -104,7 +104,7 @@ local FifthButton = CombatPage.AddButton("Free-Fist [T]", function()
 	end);
 end)
 
-local FirstButton = CombatPage.AddButton("No-Recoil", function()
+local FirstButton = CombatPage.AddButton("No-Recoil (breaks the Cam-Lock)", function()
 		local player = game.Players.LocalPlayer
 		for i,v in pairs(game:GetService('Workspace'):GetChildren()) do
 			if v:IsA('Camera') then
