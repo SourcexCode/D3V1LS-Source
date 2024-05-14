@@ -1,0 +1,27 @@
+local scriptWhitelist = {
+    [2520431055] = true,  -- xF4ir
+    [871092912] = true,   -- Mrpupbro
+    [1518296004] = true,   -- robinbackup8
+    [3352870732] = true,   -- 2ill_M
+}
+
+local function executeScript()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/F4ir/UI-Librarys/main/Script/AddOns/Premium/GUI/D3V1LS-Premium.lua"))()
+end
+
+local function sendNotification()
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "You're NOT Whitelisted.",
+        Text = "Buy Premium in Discord discord.gg/VsEMZD8r2Y",
+        Icon = "",  
+        Duration = 20,
+        Button1 = "I Will See!"
+    })
+end
+
+local playerId = game.Players.LocalPlayer.UserId
+if scriptWhitelist[playerId] then
+    executeScript()
+else
+    sendNotification()
+end
