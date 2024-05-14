@@ -2,6 +2,7 @@ local scriptWhitelist = {
     [2520431055] = true,  -- xF4ir
     [871092912] = true,   -- Mrpupbro
     [1518296004] = true,   -- robinbackup8
+    [1357681509] = true,   -- robinbackup1
     [3352870732] = true,   -- 2ill_M
 }
 
