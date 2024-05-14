@@ -55,7 +55,7 @@ getgenv().Settings = {
         UnderGround = false,
         UseUnderGroundKeybind = true,
         UnderGroundKey = Enum.KeyCode.V,
-        DetectDesync = true,
+        DetectDesync = false,
         Detection = 75,
  
         UseDetectDesyncKeybind = true,
