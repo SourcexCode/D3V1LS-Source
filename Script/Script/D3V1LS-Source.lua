@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/F4ir/UI-Librarys/main/UI.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/UI.lua"))()
 local Window = Library:Create("D3V1LS", "Made by F4ir")
 
 
@@ -7,7 +7,7 @@ local Tab1 = Window:Tab("Aim-Lock", false)
 Tab1:Label("Aim-lock")
 
 Tab1:Button("Aim-Lock (NEW GUI)", function(bool)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/F4ir/UI-Librarys/main/Script/AddOns/Aim-Lock/Aim-Lock.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Script/AddOns/Aim-Lock/Aim-Lock.lua"))()
 end)
 
 
@@ -25,7 +25,7 @@ game.StarterGui:SetCore("SendNotification", {
 })
 
 Tab2:Button("FLY (X)",function(bool)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/F4ir/UI-Librarys/main/Script/AddOns/Fly%20(X)/Fly%20(X).lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Script/AddOns/Fly%20(X)/Fly%20(X).lua"))()
 end)
 
 Tab2:Slider("Fov Camera",70,120,function(text)
@@ -69,14 +69,14 @@ local Tab4 = Window:Tab("viewer/Anti", false)
 Tab4:Label("Anti-Lock M to Activate")
 
 Tab4:Button("Activate Anti-Lock", function(bool)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/F4ir/UI-Librarys/main/Script/AddOns/Viewer%26Anti/Anti-Lock.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Script/AddOns/Viewer%26Anti/Anti-Lock.lua"))()
 end)
 
 Tab4:Label("Toggle ON/OFF with P")
 Tab4:Label("Switch player with T")
 
 Tab4:Button("Activate Aim-Viewer", function(bool)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/F4ir/UI-Librarys/main/Script/AddOns/Viewer%26Anti/Aim-Viewer.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Script/AddOns/Viewer%26Anti/Aim-Viewer.lua"))()
 end)
 
 
@@ -86,11 +86,11 @@ local Tab5 = Window:Tab("Fun Stuff", false)
 Tab5:Label("Fun Stuff")
 
 Tab5:Button("Show Chat Logs", function(bool)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/F4ir/UI-Librarys/main/Script/AddOns/Chat%20Logs/Chat%20Logs.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Script/AddOns/Chat%20Logs/Chat%20Logs.lua"))()
 end)
 
 Tab5:Button("No Jump-Cooldown", function(bool)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/F4ir/UI-Librarys/main/Script/AddOns/No%20Jump-Cooldown/No%20Jump-Cooldown.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Script/AddOns/No%20Jump-Cooldown/No%20Jump-Cooldown.lua"))()
 end)
 
 Tab5:Button("Trash Talk (J)",function(bool)
@@ -158,7 +158,7 @@ end)
 
 
 Tab5:Button("C To TP", function(bool)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/F4ir/UI-Librarys/main/Script/AddOns/C%20To%20TP/C%20To%20TP.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Script/AddOns/C%20To%20TP/C%20To%20TP.lua"))()
 end)
 
 
@@ -168,7 +168,7 @@ local Tab6 = Window:Tab("Premium",false)
 Tab6:Label("Discord In Credits")
 
 Tab6:Button("Premium GUI", function(bool)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/F4ir/UI-Librarys/main/Script/AddOns/Premium/Whitelist.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Script/AddOns/Premium/Whitelist.lua"))()
 end)
 
 
