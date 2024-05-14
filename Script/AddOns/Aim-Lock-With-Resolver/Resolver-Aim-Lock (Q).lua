@@ -1,3 +1,11 @@
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "Lock Loaded!",
+        Text = "Have Fun!",
+        Icon = "rbxassetid://17388673657",  
+        Duration = 5,
+        Button1 = "Thanks!"
+    })
+
 getgenv().Settings = {
     Main = {
         Enable = true,
