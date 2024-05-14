@@ -22,10 +22,10 @@ local FirstLabel = AimingPage.AddLabel("ResolerKeys: B For Desync | V For Underg
 
 -- AIMING
 local FirstButton = AimingPage.AddButton("Cam-Lock With Resolver (Q)", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/F4ir/UI-Librarys/main/Script/AddOns/Aim-Lock-With-Resolver/Resolver-Aim-Lock%20(Q).lua",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Script/AddOns/Aim-Lock-With-Resolver/Resolver-Aim-Lock%20(Q).lua",true))()
 end)
 local FirstButton = AimingPage.AddButton("Cam-Lock With Resolver (C)", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/F4ir/UI-Librarys/main/Script/AddOns/Aim-Lock-With-Resolver/Resolver-Aim-Lock%20(C).lua",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Script/AddOns/Aim-Lock-With-Resolver/Resolver-Aim-Lock%20(C).lua",true))()
 end)
 
 
