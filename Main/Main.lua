@@ -1,5 +1,5 @@
 local scriptBlacklist = {
-    [0] = true,  -- ROBLOX | DISCORD
+    [3931702163] = true,  -- ROBLOX: Razorbacks1266 | DISCORD: 850875668698366003
     [0] = true,   -- 
     [0] = true,   -- 
 }
