@@ -4,6 +4,8 @@ local scriptWhitelist = {
     [1518296004] = true,   -- robinbackup8
     [1357681509] = true,   -- robinbackup1
     [3352870732] = true,   -- 2ill_M
+    [3647872448] = true,   -- pendalove3
+    [3710265398] = true,   -- snorlax01047
 }
 
 local function executeScript()
