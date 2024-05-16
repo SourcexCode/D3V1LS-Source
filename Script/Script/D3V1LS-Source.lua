@@ -28,6 +28,10 @@ Tab2:Button("FLY (X)",function(bool)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Script/AddOns/Fly%20(X)/Fly%20(X).lua"))()
 end)
 
+Tab2:Button("No Jump-Cooldown", function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Script/AddOns/No%20Jump-Cooldown/No%20Jump-Cooldown.lua"))()
+end)
+
 Tab2:Slider("Fov Camera",70,120,function(text)
     workspace.CurrentCamera.FieldOfView = (text)
 end)
@@ -87,10 +91,6 @@ Tab5:Label("Fun Stuff")
 
 Tab5:Button("Show Chat Logs", function(bool)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Script/AddOns/Chat%20Logs/Chat%20Logs.lua"))()
-end)
-
-Tab5:Button("No Jump-Cooldown", function(bool)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SourcexCode/D3V1LS-Source/main/Script/AddOns/No%20Jump-Cooldown/No%20Jump-Cooldown.lua"))()
 end)
 
 Tab5:Button("Trash Talk (J)",function(bool)
