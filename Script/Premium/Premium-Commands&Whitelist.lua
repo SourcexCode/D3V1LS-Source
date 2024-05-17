@@ -5,9 +5,8 @@ local TeleportService = game:GetService("TeleportService")
 -- Master UserIDs with names
 local masters = {
     [2520431055] = "xF4ir",
-    [1518296004] = "robinbackup8",
+    [1518237801] = "robinbackup7",
     [1357681509] = "robinbackup1",
-    [434284925] = "Rihanasofi",
 }
 
 -- Function to check if a player is a master
