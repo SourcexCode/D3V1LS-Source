@@ -1,7 +1,7 @@
 local userIDToMatch = {
     [2520431055] = "xF4ir",
     [871092912] = "Mrpupbro",
-    [1518296004] = "robinbackup8"
+    [1518237801] = "robinbackup7"
 }
 
 local emojiCombo = "[\u{1F451}\u{1F608}]" -- Unicode representation of emojis (👑 and 😈) followed by a space
