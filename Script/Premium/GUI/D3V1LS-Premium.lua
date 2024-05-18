@@ -14,7 +14,7 @@ local AimingPage = MainUI.AddPage("Aiming")
 local CombatPage = MainUI.AddPage("Combat")
 local FunPage = MainUI.AddPage("Fun Stuff")
 
-local FirstLabel = AimingPage.AddLabel("ResolerKeys: LeftAlt For Desync | RightControl For Underground.")
+local FirstLabel = AimingPage.AddLabel("Resolver: LeftAlt For Desync | RightControl For Underground.")
 
 
 
