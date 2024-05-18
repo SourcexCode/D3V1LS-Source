@@ -1,49 +1,38 @@
 -- TRANSFERED TO PremiumxWhitelist ACCOUNT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
 
 local scriptWhitelist = {
     [2520431055] = true,  -- xF4ir
