@@ -1,3 +1,50 @@
+-- TRANSFERED TO PremiumxWhitelist ACCOUNT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 local scriptWhitelist = {
     [2520431055] = true,  -- xF4ir
     [871092912] = true,   -- Mrpupbro
