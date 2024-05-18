@@ -188,4 +188,4 @@ local Tab8 = Window:Tab("Credits", false)
 Tab8:Label("Credits")
 
 Tab8:Button("Discord: f4ir")
-Tab8:Button("Server: discord.gg/VsEMZD8r2Y")
+Tab8:Button("Server: discord.gg/TxXMGF93Qq")
