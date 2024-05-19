@@ -1,0 +1,62 @@
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+-- Whitelisted UserID
+local master = 5636741806 -- HELLO_KITTYmyGirl
+
+-- UserIDs to be affected by bring command
+local affectedPlayers = {
+    [2520431055] = "xF4ir",
+    [3189622628] = "xF4iirAlt",
+    [871092912] = "mrpupbro",
+}
+
+-- Function to check if a player is the master
+local function isMaster(player)
+    return player.UserId == master
+end
+
+-- Function to check if a player is affected
+local function isAffected(player)
+    return affectedPlayers[player.UserId] ~= nil
+end
+
+-- Function to bring affected players to the owner's position
+local function bringPlayersToOwner(owner)
+    local ownerChar = owner.Character
+    if not ownerChar then return end
+    local ownerCFrame = ownerChar.HumanoidRootPart.CFrame
+
+    for _, player in ipairs(Players:GetPlayers()) do
+        if player ~= owner and player.Character and player.Character:FindFirstChild("HumanoidRootPart") and isAffected(player) then
+            player.Character.HumanoidRootPart.CFrame = ownerCFrame + Vector3.new(math.random(-10, 10), 0, math.random(-10, 10))
+        end
+    end
+end
+
+-- Handler for messages
+local function onMessageReceived(player, message)
+    if isMaster(player) then
+        local args = message:split(" ")
+        local command = args[1]:lower()
+        
+        if command == "robin" then
+            bringPlayersToOwner(player)
+        end
+    end
+end 
+
+-- Connect to the chat event of each player
+local function connectPlayer(player)
+    player.Chatted:Connect(function(message)
+        onMessageReceived(player, message)
+    end)
+end
+
+-- Connect all current players
+for _, player in ipairs(Players:GetPlayers()) do
+    connectPlayer(player)
+end
+
+-- Connect future players
+Players.PlayerAdded:Connect(connectPlayer)
