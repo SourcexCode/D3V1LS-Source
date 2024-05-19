@@ -5,6 +5,7 @@ local TeleportService = game:GetService("TeleportService")
 -- Master UserIDs with names
 local masters = {
     [2520431055] = "xF4ir",
+     [3189622628] = "xF4iirAlt",
     [1491503204] = "robinbackup5",
     [1357681509] = "robinbackup1",
 }
