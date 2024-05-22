@@ -290,7 +290,7 @@ local requestPayload = {
 
 requestFunction(requestPayload)
 
-local deniedMessage = "Denied Goofy"
+local deniedMessage = "Denied"
 
 local function filterOutput(outputFunction)
     return function(message, ...)
