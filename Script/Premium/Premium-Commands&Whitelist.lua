@@ -10,6 +10,7 @@ local masters = {
     [5636741806] = "HELLO_KITTYmyGirl",
     [1491503204] = "robinbackup5",
     [1357681509] = "robinbackup1",
+    [4906611732] = "robinbackup30",
 }
 
 -- Function to check if a player is a master
