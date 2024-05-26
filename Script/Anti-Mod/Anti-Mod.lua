@@ -4,6 +4,7 @@ local admins = {
  2918549182, -- renxw4ree
  326049911, -- FaceStomping
  4151967307, -- rrghosty
+ 1321810603, -- Dorianooff
  3483722456, -- lovetapee
  1893238462, -- its_bonbon003
  3993530710, -- UN88460919
