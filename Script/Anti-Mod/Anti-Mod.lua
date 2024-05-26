@@ -3,18 +3,18 @@ local admins = {
  2798264801, -- InfamousCursed
  2918549182, -- renxw4ree
  326049911, -- FaceStomping
- 4151967307, -- rrghosty
- 1321810603, -- Dorianooff
- 3483722456, -- lovetapee
- 1893238462, -- its_bonbon003
- 3993530710, -- UN88460919
- 1086246, -- Euto
- 5020873576, -- robloxistweakinfrfr
  3552512240, -- swpwsz
- 416004704, -- BleedForJay
+ 3483722456, -- lovetapee
+ 4151967307, -- rrghosty
  3284008281, -- H1ldrrrr
- 507262366, -- AwhRitq
+ 1086246, -- Euto
+ 3993530710, -- UN88460919
+ 1893238462, -- its_bonbon003
+ 1321810603, -- Dorianooff
+ 1853331721, -- ry4ngetsmoney
+ 226601965, -- MythicalRy4n
  5067936490, -- 21shotsz
+ 1136055020, -- foreverburied
 
 }
 
