@@ -6,6 +6,7 @@ local TeleportService = game:GetService("TeleportService")
 local masters = {
 -- F4irs ACCOUNTS / --
     [2520431055] = "xF4ir",
+    [3885912537] = "lF4ir",
     [3189622628] = "xF4iirAlt",
     [5636741806] = "HELLO_KITTYmyGirl",
     [1491503204] = "robinbackup5",
