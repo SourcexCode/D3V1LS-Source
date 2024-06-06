@@ -237,8 +237,7 @@ local Tab8 = Window:Tab("Credits", false)
 
 Tab8:Label("Credits")
 
-Tab8:Button("Makers Discord: f4ir")
-Tab8:Button("Managers Discord: emperor_0x")
+Tab8:Button("Discord: f4ir")
 Tab8:Button("Server: discord.gg/TxXMGF93Qq")
 
 
