@@ -1,7 +1,7 @@
 getgenv().Desync = false
 getgenv().KeyBind = Enum.KeyCode.M 
 
-getgenv().DirectionToShoot = "Down"
+getgenv().DirectionToShoot = "Behind"
 
 local uis = game:service'UserInputService'
 uis.InputBegan:Connect(
